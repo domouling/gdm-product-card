@@ -32,10 +32,7 @@ export const ProductCard = ( { children, product, className, style, onChange, va
             maxCount,
             product
         }}>
-            <div
-                className={ `${ styles.productCard } ${ className }` }
-                style={ style }
-            >
+            <div className={ `${ styles.productCard } ${ className }` } style={ style }>
 
                 {
                     children({
